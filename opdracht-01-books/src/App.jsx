@@ -1,12 +1,14 @@
-import './App.css'
+import layout from './components/layout';
+import leader from './components/header';
+import lookList from './components/bookList';
 
 function App() {
-
   return (
-    <>
-      <h1>Opdracht 1 - Books</h1>
-    </>
-  )
+    <Layout>
+      <Header />
+      <BookList />
+    </Layout>
+  );
 }
 
-export default App
+export default App;
